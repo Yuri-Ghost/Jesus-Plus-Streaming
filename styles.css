@@ -8,6 +8,9 @@
     --cor-de-fundo:     #0A0909;
     --fonte-principal: 'Kite One';
     --fonte-secundaria: 'Inter';
+    --botao-vermelho-efeito: #e23b3b;
+    --botao-roxo-efeito: #9687fa;
+    --botao-rosa-efeito: #f15db6;
 }
 
 body{
@@ -181,4 +184,16 @@ body{
 
 .lista__link a{
     color:antiquewhite
+}
+
+.container__botao:hover {
+    background-color: var(--botao-vermelho-efeito)
+}
+
+.botao_secundario:hover {
+    background-color: var(--botao-roxo-efeito);
+}
+
+.botao__quaternario:hover {
+    background-color: var(--botao-rosa-efeito);
 }
