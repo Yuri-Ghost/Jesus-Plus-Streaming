@@ -175,5 +175,10 @@ body{
 }
 
 
+.lista__link a:hover {
+    color: var(--botao-vermelho)
+}
 
-
+.lista__link a{
+    color:antiquewhite
+}
